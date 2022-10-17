@@ -1,0 +1,183 @@
+@use 'custom' as *;
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap');
+
+
+
+
+
+
+.section {
+        height: 100vh;
+        padding-top: 15rem;
+        // padding-bottom: calc(10rem - 4.5rem);
+        background:url("/razgovor_posao/img/Rectangle\ 1.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+}
+.crveni {
+    width: 100%;
+    // height: 376px;
+    background-color: $primary;
+    position: relative;
+}
+.crveni .over {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    mix-blend-mode: soft-light;
+}
+.crveni h2 {
+    color: #fff;
+    padding-top: 3rem; 
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;   
+}
+.crveni p {
+    color: #fff;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    // padding-top: 5rem;    
+}
+.section h1 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 82px;
+    font-style: normal;
+}
+
+.section p {
+    font-family: 'Manrope', sans-serif;
+    line-height: 36px;
+    font-size: 20px;
+    font-style: normal;
+    // padding-right: 5rem;
+}
+
+.search {
+    position: relative;
+    margin-top: 60px;
+    // margin: 60px auto;
+    width: 502px;
+    height: 73px;
+  }
+  .search-input {
+    width: 100%;
+    height: 100%;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+    color: rgba(0, 0, 0, 0.4);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 100px 10px 20px; 
+    box-sizing: border-box;
+    outline: none;
+  }
+  .search-button {
+    position: absolute;
+    right: 6px; 
+    top: 6px;
+    bottom: 6px;
+    border: 0;
+    background: $primary;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+    color: #fff;
+    outline: none;
+    margin: 0;
+    padding: 0 40px;
+    border-radius: 10px;
+    z-index: 2;
+  }
+  .search-button:hover {
+    transition: 0.08s ease-in;
+    background: $crvena-svetla;
+  }
+
+.about {
+    margin-top: 10rem;
+}
+.about h2 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+
+}
+
+.about .naslovni {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    // padding: 0 10rem;
+    letter-spacing: 0.2px;
+
+}
+.ikona {
+    position: relative;
+    width: 60px;
+    margin: 0 auto;
+}
+.card-img {
+    position: relative;
+    margin: 0 auto;
+    height: 50px;
+    z-index: 1;
+}
+.circle {
+    position: absolute;
+    // opacity: 0.8;
+    right: 5px;
+    bottom: 20px;
+    content: "";
+    background-color: $primary;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+.zvezda {
+    background-color: #7553FF;
+    right: 30px;
+    bottom: 20px;
+}
+.kruna {
+    background-color: #53C1FF;
+    left: 30px;
+    bottom: 20px;
+}
+.zgrada {
+    background-color: #53ACFF;
+    right: 25px;
+    bottom: 20px;
+}
+.pita {
+    background-color: #FF5353;
+    left: 30px;
+    bottom: 25px;
+}
+.figma {
+    background-color: #FFBA53;
+    left: 20px;
+    bottom: 30px;
+}
+
+
